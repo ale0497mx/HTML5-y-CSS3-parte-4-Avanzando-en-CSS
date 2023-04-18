@@ -1,0 +1,103 @@
+/* *{
+    height: auto;
+    margin: 0;
+    /* text-align: center; */
+    body{
+        font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+    }
+    header{
+        /* width: auto; */
+        background: rgb(239,239,239);
+        background: linear-gradient(0deg, rgb(255, 255, 255) 0%, rgba(194,163,255,1) 100%);
+        /* url("banner-vector.jpg"); */
+        background-size: 100%;
+        padding: 20px 0;
+        
+    }
+    .caja{
+        width: 940px;
+        position: relative;
+        margin: 0 auto;
+    }
+    nav{
+        
+        
+        /* outline: 1px solid red; */
+        position: absolute;
+        top: 110px;
+        right: 0;
+    
+    }
+    nav li{
+        display: inline;
+        margin: 0 0 0 15px;
+    }
+    
+    nav a{
+        /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    nav a:hover{
+        
+        color: #c78c19;
+        
+        text-decoration: underline;
+    }
+    main{
+        width: 940px;
+        margin: 0 auto;
+
+    }
+    /* body de index */
+    .banner{
+        width: 100%;
+    }
+    .titulo-principal{
+        text-align: center;
+        font-size: 2em;
+        margin: 0 0 1em;
+        clear: left;
+    }
+    .principal p{
+        margin: 0 0 1em;
+    }
+    .principal strong{
+        font-weight: bold;
+    }
+    .principal em{
+        font-style: italic;
+    }
+    .utensilios{
+        width: 120px;
+        float: left;
+        margin: 0 20px 20px 0;
+    }
+
+    .imgDif{
+        width: 60%;
+    }
+    
+
+
+    .pie{
+        width: auto;
+        background: url(bg.jpg);
+        
+        height: 250px;
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .logo-pie{
+        height: 80%;
+    }
+    .txt-pie{
+        margin-top: 20px;
+        color: white;
+    }
